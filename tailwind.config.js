@@ -5,7 +5,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        black: "#000",
+        black: "#2E2E2E",
+        blackWithOpacity: 'RGBA(46,46,46,0.8)',
         white: "#fff",
 
         gray: {
@@ -30,6 +31,8 @@ module.exports = {
         lg: ["18px", "24px"],
         xl: ["20px", "26px"],
         "2xl": ["22px", { letterSpacing: "-0.4px", lineHeight: 1.25 }],
+        "3xl": '32px',
+        "4xl": '52px'
       },
     },
   },
